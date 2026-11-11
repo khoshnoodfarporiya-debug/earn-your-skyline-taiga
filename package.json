@@ -1,0 +1,47 @@
+{
+  "name": "earn-your-skyline",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev -p 3500",
+    "build": "next build",
+    "start": "next start -p 3500",
+    "typecheck": "tsc --noEmit",
+    "balance": "tsx scripts/balance.ts",
+    "cities": "tsx scripts/cities.ts",
+    "trace": "tsx scripts/trace.ts",
+    "check": "tsx scripts/commands.ts",
+    "lint": "eslint .",
+    "fixtures": "tsx scripts/fixtures.ts",
+    "e2e": "playwright test",
+    "build:map": "tsx scripts/build-map.ts",
+    "build:art": "tsx scripts/build-purchase-art.ts"
+  },
+  "dependencies": {
+    "next": "^16.3.0",
+    "react": "19.1.1",
+    "react-dom": "19.1.1"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.39.5",
+    "@playwright/test": "^1.62.1",
+    "@types/d3-geo": "^3.1.1",
+    "@types/node": "^22.10.2",
+    "@types/react": "^19.0.2",
+    "@types/react-dom": "^19.0.2",
+    "@types/topojson-client": "^3.1.5",
+    "autoprefixer": "^10.4.20",
+    "d3-geo": "^3.1.1",
+    "eslint": "^9.39.5",
+    "eslint-config-next": "^16.3.1",
+    "eslint-plugin-jsx-a11y": "^6.10.2",
+    "eslint-plugin-react-hooks": "^7.1.1",
+    "postcss": "^8.4.49",
+    "tailwindcss": "^3.4.17",
+    "topojson-client": "^3.1.0",
+    "tsx": "^4.23.12",
+    "typescript": "^5.7.2",
+    "typescript-eslint": "^8.67.0",
+    "world-atlas": "^2.0.2"
+  }
+}
