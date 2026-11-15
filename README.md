@@ -1,5 +1,7 @@
 # Earn Your Skyline
 
+This repository is the Taiga submission snapshot of [Earn Your Skyline](https://github.com/khoshnoodfarporiya-debug/earn-your-skyline), a turn-based career management game. Visit the main repository for the primary project presentation. This snapshot includes its own source and setup instructions for reviewing the submission.
+
 A turn-based management sim where **each career runs on its own rules**, not a
 shared economy with a different skin. Inspired by Business Inc. Tycoon
 Simulator, built against the opposite principle: there, every player is a
